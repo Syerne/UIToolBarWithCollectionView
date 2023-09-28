@@ -9,6 +9,8 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var systemImageDamru: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

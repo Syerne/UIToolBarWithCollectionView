@@ -13,6 +13,10 @@
 		3A1406F02AC190C30075CB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1406EE2AC190C30075CB78 /* Main.storyboard */; };
 		3A1406F22AC190C50075CB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1406F12AC190C50075CB78 /* Assets.xcassets */; };
 		3A1406F52AC190C50075CB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1406F32AC190C50075CB78 /* LaunchScreen.storyboard */; };
+		3A1407222AC319720075CB78 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1407202AC319720075CB78 /* CustomCollectionViewCell.swift */; };
+		3A1407232AC319720075CB78 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1407212AC319720075CB78 /* CustomCollectionViewCell.xib */; };
+		3A1407262AC4007E0075CB78 /* TextStyleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1407242AC4007E0075CB78 /* TextStyleCollectionViewCell.swift */; };
+		3A1407272AC4007E0075CB78 /* TextStyleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1407252AC4007E0075CB78 /* TextStyleCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3A1406F12AC190C50075CB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A1406F42AC190C50075CB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A1406F62AC190C50075CB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1407202AC319720075CB78 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A1407212AC319720075CB78 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		3A1407242AC4007E0075CB78 /* TextStyleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A1407252AC4007E0075CB78 /* TextStyleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextStyleCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				3A1406F12AC190C50075CB78 /* Assets.xcassets */,
 				3A1406F32AC190C50075CB78 /* LaunchScreen.storyboard */,
 				3A1406F62AC190C50075CB78 /* Info.plist */,
+				3A1407202AC319720075CB78 /* CustomCollectionViewCell.swift */,
+				3A1407212AC319720075CB78 /* CustomCollectionViewCell.xib */,
+				3A1407242AC4007E0075CB78 /* TextStyleCollectionViewCell.swift */,
+				3A1407252AC4007E0075CB78 /* TextStyleCollectionViewCell.xib */,
 			);
 			path = AttributedText;
 			sourceTree = "<group>";
@@ -128,6 +140,8 @@
 				3A1406F52AC190C50075CB78 /* LaunchScreen.storyboard in Resources */,
 				3A1406F22AC190C50075CB78 /* Assets.xcassets in Resources */,
 				3A1406F02AC190C30075CB78 /* Main.storyboard in Resources */,
+				3A1407232AC319720075CB78 /* CustomCollectionViewCell.xib in Resources */,
+				3A1407272AC4007E0075CB78 /* TextStyleCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1406ED2AC190C30075CB78 /* ViewController.swift in Sources */,
+				3A1407262AC4007E0075CB78 /* TextStyleCollectionViewCell.swift in Sources */,
 				3A1406E92AC190C30075CB78 /* AppDelegate.swift in Sources */,
 				3A1406EB2AC190C30075CB78 /* SceneDelegate.swift in Sources */,
+				3A1407222AC319720075CB78 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

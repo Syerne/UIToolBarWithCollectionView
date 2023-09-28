@@ -8,6 +8,8 @@
 import UIKit
 
 class TextStyleCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet weak var textFontStyleLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
